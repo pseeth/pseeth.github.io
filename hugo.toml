@@ -6,6 +6,7 @@ enableEmoji = true
 googleAnalytics = ""
 enableRobotsTXT = true
 copyright = "&copy; 2023, Prem Seetharaman"
+publishDir = "docs"
 
 [markup]
   [markup.goldmark]
