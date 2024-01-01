@@ -5,6 +5,8 @@
 
 ##### Patents
 
+Prem Seetharaman, Gautham J Mysore, and Bryan A Pardo. Sound Quality Prediction and Interface to Facilitate High-Quality Voice Recordings. US Patent App. 16/296,122. Sept. 2020.
+
 Rafii, Z., & Seetharaman, P. (2018). Audio Identification Based on Data Structure.
 
 Cremer, M. K., Rafii, Z., Coover, R., & Seetharaman, P. (2018). Automated Cover Song Identification.
