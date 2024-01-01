@@ -10,7 +10,7 @@ title: News
 
 **Jun 2023** I had a kid!
 
-**May 2023** Released the [Descript Audio Codec](https://github.com/descriptinc/descript-audio-codec) (NeurIPS 2023), a powerful neural audio codec that can compress audio at 90x compression rate with minimal quality loss.
+**May 2023** Released the [Descript Audio Codec](https://github.com/descriptinc/descript-audio-codec) (NeurIPS 2023), a powerful neural audio codec that can compress audio 90x with minimal quality loss.
 
 **Jan 2022** First intern batch at Descript results in [Wav2CLIP](https://arxiv.org/abs/2110.11499) (ICASSP) and [CARGAN](https://www.maxrmorrison.com/sites/cargan/) (ICLR)!
 
