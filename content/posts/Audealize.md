@@ -1,5 +1,5 @@
 ---
-title: Audealize
+title: 'Audealize: Crowdsourced Audio Production Tools'
 date: 2016-09-16T07:00:00.000Z
 ---
 
