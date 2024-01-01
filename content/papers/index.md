@@ -5,6 +5,10 @@
 
 ##### Patents
 
+Prem Seetharaman, Kundan Kumar. [Training machine learning frameworks to generate studio-quality recordings through manipulation of noisy audio signals](https://patents.google.com/patent/US20230230609A1/en). US Patent App. 18/154,707, July 2023
+
+Prem Seetharaman, Kundan Kumar. [Approaches to generating studio-quality recordings through manipulation of noisy audio.](https://scholar.google.com/scholar?oi=bibs\&cluster=5989627645918136881\&btnI=1\&hl=en) US Patent App. 18/154,718, July 2023.
+
 Prem Seetharaman, Gautham J Mysore, and Bryan A Pardo. Sound Quality Prediction and Interface to Facilitate High-Quality Voice Recordings. US Patent App. 16/296,122. Sept. 2020.
 
 Rafii, Z., & Seetharaman, P. (2018). Audio Identification Based on Data Structure.
