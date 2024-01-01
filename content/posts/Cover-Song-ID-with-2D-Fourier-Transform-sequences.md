@@ -1,5 +1,6 @@
 ---
 title: Cover Song ID with 2D Fourier Transform sequences
+date: 2016-12-01T08:00:00.000Z
 ---
 
 ![](/public/images/2dft.png)
