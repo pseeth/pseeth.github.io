@@ -1,0 +1,62 @@
+baseURL = 'https://pseeth.github.io/'
+languageCode = 'en-us'
+title = 'Prem Seetharaman'
+relativeURLs = true
+enableEmoji = true
+googleAnalytics = ""
+enableRobotsTXT = true
+copyright = "&copy; 2023, Prem Seetharaman"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = "papers"
+    name = "Papers"
+    title = "Papers"
+    url = "/papers/"
+  [[menu.main]]
+    identifier = "music"
+    name = "Music"
+    title = "Music"
+    url = "/music/"
+  [[menu.main]]
+    identifier = "notebooks"
+    name = "Notebooks"
+    title = "Notebooks"
+    url = "/notebooks/"
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    title = "CV"
+    url = "/public/cv.pdf"
+
+# Configuration Features
+[params]
+  description = "Personal website of Prem Seetharaman"      # Your meta description of the site
+  header_title = "Prem Seetharaman"                 # Your header title
+  header_subtitle = "Senior Research Scientist, Adobe Research" # Your header subtitle
+  home_image = "images/avatar.jpg"          # Path to header image starting from the static directory (optional)
+  recent_posts = inf                           # Max amount of recent posts to show
+  favicon = "/favicon.ico"
+  mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
+  [params.style]                             # CSS style overrides
+    backgroundColor = "#f8f9fa"
+    homeImageBorderColor = "#ffffff"
+    fontFamilyBase = "Helvetica Neue"        # First-choice font
+    fontColor = "#212529"
+  [[params.social]]
+    fa_icon = "ai ai-google-scholar-square ai-1x"
+    href = "https://scholar.google.com/citations?user=XHD-48cAAAAJ&hl=en"
+  [[params.social]]
+    fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
+    href = "http://github.com/pseeth"      # Link to associate with icon (http://, https://, mailto:)
+  [[params.social]]
+    fa_icon = "fab fa-linkedin-in fa-1x"
+    href = "https://www.linkedin.com/in/prem-seetharaman-2330a01a2/"
+  [[params.social]]
+    fa_icon = "fab fa-twitter fa-1x"
+    href = "https://twitter.com/pseetharaman"
