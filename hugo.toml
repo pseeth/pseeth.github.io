@@ -6,7 +6,6 @@ enableEmoji = true
 googleAnalytics = ""
 enableRobotsTXT = true
 copyright = "&copy; 2023, Prem Seetharaman"
-publishDir = "site"
 
 [markup]
   [markup.goldmark]
@@ -41,7 +40,7 @@ publishDir = "site"
   header_title = "Prem Seetharaman"                 # Your header title
   header_subtitle = "Senior Research Scientist, Adobe Research" # Your header subtitle
   home_image = "images/avatar.jpg"          # Path to header image starting from the static directory (optional)
-  recent_posts = inf                           # Max amount of recent posts to show
+  recent_posts = 100                           # Max amount of recent posts to show
   favicon = "/favicon.ico"
   mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
   [params.style]                             # CSS style overrides
