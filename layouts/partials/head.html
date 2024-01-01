@@ -8,6 +8,7 @@
     {{ $overrideTemplate := resources.Get "sass/override.scss" }}
     {{ $override := $overrideTemplate | resources.ExecuteAsTemplate "css/theme.scss" . | toCSS | minify }}
     <link rel="stylesheet" href="{{ $override.RelPermalink }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
     {{/* Adds custom styles capability */}}
     {{ $customTemplate := resources.Get "sass/custom.scss" }}
@@ -15,6 +16,16 @@
     {{ $custom := $customTemplate | resources.ExecuteAsTemplate "css/custom.scss" . | toCSS | minify }}
     <link rel="stylesheet" href="{{ $custom.RelPermalink }}">
     {{ end }}
+
+    <style>
+        .news-items p {
+            margin-bottom: 0;
+        }
+        .news-items strong {
+            width: 4.75em;
+            display: inline-block;
+        }
+    </style>
 
     {{ template "_internal/google_analytics.html" . }}
 </head>
