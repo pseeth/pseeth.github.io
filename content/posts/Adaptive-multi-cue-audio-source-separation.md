@@ -1,5 +1,6 @@
 ---
 title: Adaptive multi-cue audio source separation
+date: 2017-10-15T07:00:00.000Z
 ---
 
 ![](/public/images/timeline.png)
