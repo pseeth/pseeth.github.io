@@ -5,9 +5,9 @@
 
 ##### Patents
 
-Prem Seetharaman, Kundan Kumar. *[Training machine learning frameworks to generate studio-quality recordings through manipulation of noisy audio signals](https://patents.google.com/patent/US20230230609A1/en)*. US Patent App. 18/154,707, July 2023
+Prem Seetharaman, Kundan Kumar. *Training machine learning frameworks to generate studio-quality recordings through manipulation of noisy audio signals.* US Patent App. 18/154,707, July 2023
 
-Prem Seetharaman, Kundan Kumar. \[*Approaches to generating studio-quality recordings through manipulation of noisy audio*].([https://scholar.google.com/scholar?oi=bibs\\\&cluster=5989627645918136881\\\&btnI=1\\\&hl=en](https://scholar.google.com/scholar?oi=bibs\\\&cluster=5989627645918136881\\\&btnI=1\\\&hl=en)) US Patent App. 18/154,718, July 2023.
+Prem Seetharaman, Kundan Kumar. *Approaches to generating studio-quality recordings through manipulation of noisy audio*. US Patent App. 18/154,718, July 2023.
 
 Prem Seetharaman, Gautham J Mysore, and Bryan A Pardo. *Sound Quality Prediction and Interface to Facilitate High-Quality Voice Recordings*. US Patent App. 16/296,122. Sept. 2020.
 
@@ -17,7 +17,9 @@ Cremer, M. K., Rafii, Z., Coover, R., & Seetharaman, P. (2018). *Automated Cover
 
 ##### Refereed Conference Papers
 
-[\[pdf\]](https://arxiv.org/pdf/1910.12626.pdf) Liu, A., Seetharaman, P., & Pardo, B. (2020). Model Selection for Deep Audio Source Separation via Clustering Analysis. ArXiv Preprint ArXiv:1910.12626.
+[\[pdf\]](https://arxiv.org/pdf/2307.04686) [\[demo\]](https://huggingface.co/spaces/descript/vampnet) [\[code\]](https://github.com/hugofloresgarcia/vampnet) [\[examples\]](https://hugo-does-things.notion.site/VampNet-Music-Generation-via-Masked-Acoustic-Token-Modeling-e37aabd0d5f1493aa42c5711d0764b33) Hugo Flores Garcia, Prem Seetharaman, Rithesh Kumar, Bryan Pardo. *VampNet: Music Generation via Masked Acoustic Token Modeling.* In Proceedings of the 24th International Society for Music Information Retrieval Conference. November 2023.
+
+[\[pdf\]](https://arxiv.org/pdf/1910.12626.pdf) Liu, A., Seetharaman, P., & Pardo, B. (2020). Model Selection for Deep Audio Source Separation via Clustering Analysis. Proceedings of DCASE 2020. **Best Student Paper.**
 
 [\[pdf\]](https://arxiv.org/pdf/1910.12621.pdf) Manilow, E., Seetharaman, P., & Pardo, B. (2020). Simultaneous Separation and Transcription of Mixtures with Multiple Polyphonic and Percussive Instruments. ArXiv Preprint ArXiv:1910.12621.
 
