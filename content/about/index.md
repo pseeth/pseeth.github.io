@@ -5,4 +5,4 @@ I am a Senior Research Scientist at Adobe Research, working in the [Audio AI Lab
 
 ##### Contact & Internships
 
-I'm always looking for bright and motivated students to intern with me at Adobe Research! If you think you'd be a good fit, please email me with your CV and research interests at seethara \[at] adobe.com.
+I'm always looking for bright and motivated students to intern with me at Adobe Research! If you think you'd be a good fit, please email me with your CV and research interests at pseeth \[at] adobe.com.
