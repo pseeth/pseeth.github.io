@@ -1,20 +1,21 @@
-# Builds the Hugo site on every branch push and publishes it to the gh-pages branch.
-#   main             -> https://pseeth.github.io/
-#   any other branch -> https://pseeth.github.io/previews/<branch>/  (slashes become dashes)
-# Deleting a branch removes its preview.
+# Builds the Hugo site and publishes it to the gh-pages branch.
+#   push to main  -> https://pseeth.github.io/
+#   pull request  -> https://pseeth.github.io/previews/pr-<number>/  (link posted on the PR)
+# Closing or merging a PR removes its preview.
 # Requires Settings > Pages > Source = "Deploy from a branch", branch gh-pages, folder / (root).
-name: Deploy site and branch previews
+name: Deploy site and PR previews
 
 on:
   push:
     branches:
-      - "**"
-      - "!gh-pages"
-  delete:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
   workflow_dispatch:
 
 permissions:
   contents: write
+  pull-requests: write
 
 # All jobs write to gh-pages, so run them one at a time.
 concurrency:
@@ -27,10 +28,17 @@ defaults:
 
 jobs:
   build-and-deploy:
-    if: github.event_name != 'delete'
+    # Fork PRs get a read-only token and can't publish, so only same-repo PRs get previews.
+    if: >-
+      github.event_name != 'pull_request' ||
+      (github.event.action != 'closed' &&
+       github.event.pull_request.head.repo.full_name == github.repository)
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.121.0
+      IS_PREVIEW: ${{ github.event_name == 'pull_request' }}
+      PREVIEW_FOLDER: previews/pr-${{ github.event.pull_request.number }}
+      PREVIEW_URL: https://pseeth.github.io/previews/pr-${{ github.event.pull_request.number }}/
     steps:
       - name: Install Hugo CLI
         run: |
@@ -43,22 +51,11 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Work out deploy target
-        id: target
-        run: |
-          if [ "${GITHUB_REF_NAME}" = "main" ]; then
-            echo "folder=." >> "$GITHUB_OUTPUT"
-            echo "url=https://pseeth.github.io/" >> "$GITHUB_OUTPUT"
-          else
-            slug=$(printf '%s' "${GITHUB_REF_NAME}" | tr -c 'A-Za-z0-9._-' '-')
-            echo "folder=previews/${slug}" >> "$GITHUB_OUTPUT"
-            echo "url=https://pseeth.github.io/previews/${slug}/" >> "$GITHUB_OUTPUT"
-          fi
       - name: Install Node.js dependencies
-        if: github.ref_name == 'main'
+        if: env.IS_PREVIEW != 'true'
         run: "yarn install --frozen-lockfile"
-      - name: Build with Hugo + TinaCMS (main)
-        if: github.ref_name == 'main'
+      - name: Build with Hugo + TinaCMS
+        if: env.IS_PREVIEW != 'true'
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
@@ -68,40 +65,65 @@ jobs:
           yarn build
           touch public/.nojekyll
       # Previews skip the TinaCMS admin build; they only need the site itself.
+      # Links are relative (relativeURLs = true), so the build works from any subfolder.
       - name: Build with Hugo (preview)
-        if: github.ref_name != 'main'
+        if: env.IS_PREVIEW == 'true'
         run: hugo --environment preview
-      - name: Publish to gh-pages
+      - name: Publish site to gh-pages
+        if: env.IS_PREVIEW != 'true'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: public
-          target-folder: ${{ steps.target.outputs.folder }}
           clean: true
-          # Keep branch previews when main redeploys the root.
+          # Keep PR previews when main redeploys the root.
           clean-exclude: |
             previews
             previews/**
-      - name: Summary
-        run: echo "Deployed to ${{ steps.target.outputs.url }} (live within a minute or two)" >> "$GITHUB_STEP_SUMMARY"
+      - name: Publish preview to gh-pages
+        if: env.IS_PREVIEW == 'true'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: public
+          target-folder: ${{ env.PREVIEW_FOLDER }}
+          clean: true
+      - name: Comment preview link on PR
+        if: env.IS_PREVIEW == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = '<!-- pr-preview -->';
+            const body = `${marker}\n🔍 **Preview:** ${process.env.PREVIEW_URL}\n\nUpdated for ${context.payload.pull_request.head.sha.slice(0, 7)}. It can take a minute or two to go live.`;
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number });
+            const existing = comments.find(c => c.body && c.body.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            }
 
   remove-preview:
-    if: github.event_name == 'delete' && github.event.ref_type == 'branch'
+    if: >-
+      github.event_name == 'pull_request' &&
+      github.event.action == 'closed' &&
+      github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
+    env:
+      PREVIEW_FOLDER: previews/pr-${{ github.event.pull_request.number }}
     steps:
       - name: Checkout gh-pages
         uses: actions/checkout@v4
         with:
           ref: gh-pages
       - name: Remove preview folder
-        env:
-          DELETED_REF: ${{ github.event.ref }}
         run: |
-          slug=$(printf '%s' "${DELETED_REF}" | tr -c 'A-Za-z0-9._-' '-')
-          if [ -d "previews/${slug}" ]; then
+          if [ -d "${PREVIEW_FOLDER}" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
-            git rm -rq "previews/${slug}"
-            git commit -m "Remove preview for ${DELETED_REF}"
+            git rm -rq "${PREVIEW_FOLDER}"
+            git commit -m "Remove ${PREVIEW_FOLDER}"
             git push
           fi
