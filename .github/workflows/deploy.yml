@@ -1,0 +1,107 @@
+# Builds the Hugo site on every branch push and publishes it to the gh-pages branch.
+#   main             -> https://pseeth.github.io/
+#   any other branch -> https://pseeth.github.io/previews/<branch>/  (slashes become dashes)
+# Deleting a branch removes its preview.
+# Requires Settings > Pages > Source = "Deploy from a branch", branch gh-pages, folder / (root).
+name: Deploy site and branch previews
+
+on:
+  push:
+    branches:
+      - "**"
+      - "!gh-pages"
+  delete:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# All jobs write to gh-pages, so run them one at a time.
+concurrency:
+  group: gh-pages
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build-and-deploy:
+    if: github.event_name != 'delete'
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.121.0
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Work out deploy target
+        id: target
+        run: |
+          if [ "${GITHUB_REF_NAME}" = "main" ]; then
+            echo "folder=." >> "$GITHUB_OUTPUT"
+            echo "url=https://pseeth.github.io/" >> "$GITHUB_OUTPUT"
+          else
+            slug=$(printf '%s' "${GITHUB_REF_NAME}" | tr -c 'A-Za-z0-9._-' '-')
+            echo "folder=previews/${slug}" >> "$GITHUB_OUTPUT"
+            echo "url=https://pseeth.github.io/previews/${slug}/" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Install Node.js dependencies
+        if: github.ref_name == 'main'
+        run: "yarn install --frozen-lockfile"
+      - name: Build with Hugo + TinaCMS (main)
+        if: github.ref_name == 'main'
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+          NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
+          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+        run: |
+          yarn build
+          touch public/.nojekyll
+      # Previews skip the TinaCMS admin build; they only need the site itself.
+      - name: Build with Hugo (preview)
+        if: github.ref_name != 'main'
+        run: hugo --environment preview
+      - name: Publish to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: public
+          target-folder: ${{ steps.target.outputs.folder }}
+          clean: true
+          # Keep branch previews when main redeploys the root.
+          clean-exclude: |
+            previews
+            previews/**
+      - name: Summary
+        run: echo "Deployed to ${{ steps.target.outputs.url }} (live within a minute or two)" >> "$GITHUB_STEP_SUMMARY"
+
+  remove-preview:
+    if: github.event_name == 'delete' && github.event.ref_type == 'branch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+      - name: Remove preview folder
+        env:
+          DELETED_REF: ${{ github.event.ref }}
+        run: |
+          slug=$(printf '%s' "${DELETED_REF}" | tr -c 'A-Za-z0-9._-' '-')
+          if [ -d "previews/${slug}" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+            git rm -rq "previews/${slug}"
+            git commit -m "Remove preview for ${DELETED_REF}"
+            git push
+          fi

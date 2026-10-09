@@ -10,7 +10,7 @@
                     {{ range first $recent (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
                         <p>
                             <strong>{{ .Date.Format "Jan 2006" }}</strong>
-                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                         </p>
                     {{ end }}
             </div>
