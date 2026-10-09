@@ -5,7 +5,7 @@ relativeURLs = true
 enableEmoji = true
 googleAnalytics = ""
 enableRobotsTXT = true
-copyright = "&copy; 2023, Prem Seetharaman"
+copyright = "&copy; 2026, Prem Seetharaman"
 
 [markup]
   [markup.goldmark]
