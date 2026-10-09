@@ -8,7 +8,7 @@ title: News
 
 **Sep 2026** [TAC](https://sonalkum.github.io/tacmodel/), our timestamped audio captioning model, was accepted to NeurIPS 2026!
 
-**Aug 2026** We launched [Generate Soundscape](https://community.adobe.com/announcements-732/now-in-beta-generate-soundscape-in-premiere-1639274) in Premiere (beta), which generates a picture-synced soundscape for your video as four editable stems!
+**Aug 2026** We launched [Generate Soundscape](https://community.adobe.com/announcements-732/now-in-beta-generate-soundscape-in-premiere-1639274) in Premiere (beta), which generates a picture-synced soundscape for your video as four editable stems, based on our [MultiFoley](https://ificl.github.io/MultiFoley/) research!
 
 **May 2026** Five papers at ICASSP 2026 in Barcelona: [Taming Audio VAEs via Target-KL Regularization](https://arxiv.org/abs/2605.17085), [Generative Audio Extension and Morphing](https://urinieto.github.io/genextend_html), [Mix2Morph](https://anniejchu.github.io/mix2morph), [AudioCards](https://arxiv.org/abs/2602.13835), and [PromptSep](https://yutongwen.github.io/PromptSep/).
 
