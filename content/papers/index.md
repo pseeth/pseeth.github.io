@@ -29,9 +29,9 @@ Cremer, M. K., Rafii, Z., Coover, R., & Seetharaman, P. (2018). *Automated Cover
 
 [\[pdf\]](https://arxiv.org/pdf/2610.06478) [\[demo\]](https://smorphspace.github.io/) Annie Chu, Hugo Flores García, Johannes Imort, Oriol Nieto, Bryan Pardo, Jordan Rudess, Prem Seetharaman, Justin Salamon. *Smorph: Playable Sound Morphing with Diffusion Models.* In Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR). 2026.
 
-[\[pdf\]](https://arxiv.org/pdf/2603.29263) [\[examples\]](https://cs20s030.github.io/AHA-website/) Ashish Seth, Sonal Kumar, Ramaneswaran Selvakumar, Nishit Anand, Utkarsh Tyagi, Prem Seetharaman, Ramani Duraiswami, Dinesh Manocha. *Audio Hallucination Attacks: Probing the Reliability of Large Audio Language Models.* In Proceedings of Interspeech. 2026.
+[\[pdf\]](https://arxiv.org/pdf/2603.29263) [\[examples\]](https://cs20s030.github.io/AHA-website/) Ashish Seth, Sonal Kumar, Ramaneswaran Selvakumar, Nishit Anand, Utkarsh Tyagi, Prem Seetharaman, Ramani Duraiswami, Dinesh Manocha. *Audio Hallucination Attacks: Probing the Reliability of Large Audio Language Models.* In Proceedings of Interspeech. September 2026.
 
-[\[pdf\]](https://arxiv.org/pdf/2602.17097) [\[examples\]](https://wanchichen.github.io/audiochat/) William Chen, Prem Seetharaman, Rithesh Kumar, Oriol Nieto, Shinji Watanabe, Justin Salamon, Zeyu Jin. *AudioChat: Unified Audio Storytelling, Editing, and Understanding with Transfusion Forcing.* In Proceedings of the 43rd International Conference on Machine Learning (ICML). 2026.
+[\[pdf\]](https://arxiv.org/pdf/2602.17097) [\[examples\]](https://wanchichen.github.io/audiochat/) William Chen, Prem Seetharaman, Rithesh Kumar, Oriol Nieto, Shinji Watanabe, Justin Salamon, Zeyu Jin. *AudioChat: Unified Audio Storytelling, Editing, and Understanding with Transfusion Forcing.* In Proceedings of the 43rd International Conference on Machine Learning (ICML). July 2026.
 
 [\[pdf\]](https://arxiv.org/pdf/2605.17085) Prem Seetharaman, Rithesh Kumar. *Taming Audio VAEs via Target-KL Regularization.* In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). May 2026.
 
