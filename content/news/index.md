@@ -16,7 +16,7 @@ title: News
 
 **Feb 2026** Released [AudioChat](https://wanchichen.github.io/audiochat/), a unified model for audio storytelling, editing, and understanding, and [TAC](https://sonalkum.github.io/tacmodel/), a timestamped audio captioning model.
 
-**Oct 2025** Presented [Project Sound Stager](https://www.adobe.com/max/2025/sessions/project-sound-stager-gs3-9.html) at the Adobe MAX Sneaks, which builds layered soundscapes for a video from its visuals, pacing, and mood, and lets you refine the mix by chatting with an AI sound designer.
+**Oct 2025** [Project Sound Stager](https://www.youtube.com/watch?v=QOz_CsQKcz8) was an Adobe MAX Sneak! It builds layered soundscapes for a video from its visuals, pacing, and mood, and lets you refine the mix by chatting with an AI sound designer.
 
 **Sep 2025** [The Rhythm In Anything](https://therhythminanything.github.io/) (audio-prompted drum generation) at ISMIR 2025, and [SILA](https://sonalkum.github.io/SILA/) at WASPAA 2025.
 
@@ -28,7 +28,7 @@ title: News
 
 **Apr 2025** [Sketch2Sound](https://hugofloresgarcia.art/sketch2sound/) (with [Hugo](https://hugofloresgarcia.github.io/)) and [Code Drift](https://oreillyp.github.io/codedrift/) at ICASSP 2025.
 
-**Oct 2024** Presented [Project Super Sonic](https://techcrunch.com/2024/10/15/adobes-project-super-sonic-uses-ai-to-generate-sound-effects-for-your-videos/), generating sound effects for video from text, clicks, and vocal imitations, at the Adobe MAX Sneaks.
+**Oct 2024** [Project Super Sonic](https://www.youtube.com/watch?v=RddSWodgX5w) was an Adobe MAX Sneak! It generates sound effects for video from text, clicks on objects, and vocal imitations.
 
 **Dec 2023** I joined Adobe Research as a Senior Research Scientist, working in the Audio AI Lab.
 
