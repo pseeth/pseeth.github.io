@@ -27,9 +27,9 @@ Cremer, M. K., Rafii, Z., Coover, R., & Seetharaman, P. (2018). *Automated Cover
 
 [\[pdf\]](https://arxiv.org/pdf/2602.17097) William Chen, Prem Seetharaman, Rithesh Kumar, Oriol Nieto, Shinji Watanabe, Justin Salamon, Zeyu Jin. *AudioChat: Unified Audio Storytelling, Editing, and Understanding with Transfusion Forcing.* arXiv preprint arXiv:2602.17097. February 2026.
 
-[\[pdf\]](https://arxiv.org/pdf/2602.15766) Sonal Kumar, Prem Seetharaman, Ke Chen, Oriol Nieto, Jiaqi Su, Zhepei Wang, Rithesh Kumar, Dinesh Manocha, Nicholas J. Bryan, Zeyu Jin, Justin Salamon. *TAC: Timestamped Audio Captioning.* arXiv preprint arXiv:2602.15766. February 2026.
-
 ##### Refereed Conference Papers
+
+[\[pdf\]](https://arxiv.org/pdf/2602.15766) Sonal Kumar, Prem Seetharaman, Ke Chen, Oriol Nieto, Jiaqi Su, Zhepei Wang, Rithesh Kumar, Dinesh Manocha, Nicholas J. Bryan, Zeyu Jin, Justin Salamon. *TAC: Timestamped Audio Captioning.* In Advances in Neural Information Processing Systems (NeurIPS). December 2026.
 
 [\[pdf\]](https://arxiv.org/pdf/2610.06478) [\[demo\]](https://smorphspace.github.io/) Annie Chu, Hugo Flores García, Johannes Imort, Oriol Nieto, Bryan Pardo, Jordan Rudess, Prem Seetharaman, Justin Salamon. *Smorph: Playable Sound Morphing with Diffusion Models.* In Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR). 2026.
 

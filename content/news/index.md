@@ -6,6 +6,8 @@ title: News
 
 **Oct 2026** Released [CrossEdit](https://arxiv.org/abs/2610.10264), which uses cross-modal training for rich audio-visual editing.
 
+**Sep 2026** [TAC](https://arxiv.org/abs/2602.15766), our timestamped audio captioning model, was accepted to NeurIPS 2026!
+
 **May 2026** Five papers at ICASSP 2026 in Barcelona: [Taming Audio VAEs via Target-KL Regularization](https://arxiv.org/abs/2605.17085), [Generative Audio Extension and Morphing](https://arxiv.org/abs/2602.16790), [Mix2Morph](https://arxiv.org/abs/2601.20426), [AudioCards](https://arxiv.org/abs/2602.13835), and [PromptSep](https://arxiv.org/abs/2511.04623).
 
 **Apr 2026** Two papers at CHI 2026: [MoSound](https://research.adobe.com/publication/mosound-an-interactive-tool-for-generative-sound-design-in-motion-graphics/) (**Best Paper Honorable Mention**) and [SoundStager](https://research.adobe.com/publication/soundstager-interactive-design-of-story-driven-genai-soundscapes-for-video/).
