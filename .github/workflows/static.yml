@@ -48,17 +48,13 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Install Node.js dependencies
-        run: "yarn install --frozen-lockfile"
-      - name: Build with Hugo + TinaCMS
+      # Bootstrap and Font Awesome are committed under node_modules/, so Hugo
+      # builds without a package install.
+      - name: Build with Hugo
         env:
-          # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-          NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
-          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-        run: |
-          yarn build    
+        run: hugo
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
