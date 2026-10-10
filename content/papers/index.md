@@ -19,11 +19,9 @@ Rafii, Z., & Seetharaman, P. (2024). *Audio Identification Based on Data Structu
 
 Cremer, M. K., Rafii, Z., Coover, R., & Seetharaman, P. (2018). *Automated Cover Song Identification.*
 
-##### Preprints
+##### Refereed Conference Papers
 
 [\[pdf\]](https://arxiv.org/pdf/2610.10264) [\[examples\]](https://wanchichen.github.io/crossedit/) William Chen, Prem Seetharaman, Ke Chen, Oriol Nieto, Kevin Duarte, Siddharth Srinivasan Iyer, Mamshad Nayeem Rizve, Zhiwen Cao, Shinji Watanabe, Yuanjun Xiong, Jianming Zhang, Zeyu Jin, Justin Salamon. *CrossEdit: Cross-Modal Training Enables Rich Audio-Visual Editing.* arXiv preprint arXiv:2610.10264. October 2026.
-
-##### Refereed Conference Papers
 
 [\[pdf\]](https://arxiv.org/pdf/2602.15766) [\[examples\]](https://sonalkum.github.io/tacmodel/) Sonal Kumar, Prem Seetharaman, Ke Chen, Oriol Nieto, Jiaqi Su, Zhepei Wang, Rithesh Kumar, Dinesh Manocha, Nicholas J. Bryan, Zeyu Jin, Justin Salamon. *TAC: Timestamped Audio Captioning.* In Advances in Neural Information Processing Systems (NeurIPS). December 2026.
 
