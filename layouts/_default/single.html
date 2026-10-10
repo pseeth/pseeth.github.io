@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <div class="pl-sm-4 ml-sm-5">
+    <div class="pl-sm-4 ml-sm-5{{ with .File }} page-{{ .ContentBaseName | urlize }}{{ end }}">
         {{ .Content }}
     </div>
 
