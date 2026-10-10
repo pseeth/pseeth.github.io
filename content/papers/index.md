@@ -1,7 +1,7 @@
 
 ##### Thesis
 
-**Seetharaman, P.** (2019). Bootstrapping the Learning Process for Computer Audition (PhD thesis). Northwestern University. [\[pdf\]](https://pseeth.github.io/public/papers/thesis.pdf) [\[demo\]](https://pseeth.github.io/public/thesis)
+**Prem Seetharaman**. *Bootstrapping the Learning Process for Computer Audition.* PhD thesis, Northwestern University. 2019. [\[pdf\]](https://pseeth.github.io/public/papers/thesis.pdf) [\[demo\]](https://pseeth.github.io/public/thesis)
 
 ##### Patents
 
@@ -11,13 +11,13 @@ Justin Salamon, **Prem Seetharaman**, Oriol Nieto, Hugo Flores García, et al. *
 
 **Prem Seetharaman**, Kundan Kumar. *Training machine learning frameworks to generate studio-quality recordings through manipulation of noisy audio signals.* US Patent 12,431,154. 2025.
 
-**Prem Seetharaman**, Kundan Kumar. *Approaches to generating studio-quality recordings through manipulation of noisy audio*. US Patent App. 18/154,718, July 2023.
+**Prem Seetharaman**, Kundan Kumar. *Approaches to generating studio-quality recordings through manipulation of noisy audio.* US Patent App. 18/154,718. July 2023.
 
-**Prem Seetharaman**, Gautham J Mysore, and Bryan A Pardo. *Sound Quality Prediction and Interface to Facilitate High-Quality Voice Recordings*. US Patent App. 16/296,122. Sept. 2020.
+**Prem Seetharaman**, Gautham J Mysore, Bryan A Pardo. *Sound Quality Prediction and Interface to Facilitate High-Quality Voice Recordings.* US Patent App. 16/296,122. September 2020.
 
-Rafii, Z., & **Seetharaman, P.** (2024). *Audio Identification Based on Data Structure.* US Patent 12,105,754.
+Zafar Rafii, **Prem Seetharaman**. *Audio Identification Based on Data Structure.* US Patent 12,105,754. 2024.
 
-Cremer, M. K., Rafii, Z., Coover, R., & **Seetharaman, P.** (2018). *Automated Cover Song Identification.*
+Markus K Cremer, Zafar Rafii, Robert Coover, **Prem Seetharaman**. *Automated Cover Song Identification.* US Patent App. 15/698,557. 2018.
 
 ##### Refereed Conference Papers
 
@@ -61,60 +61,60 @@ Rithesh Kumar, **Prem Seetharaman**, Alejandro Luebs, Ishaan Kumar, Kundan Kumar
 
 Hugo Flores Garcia, **Prem Seetharaman**, Rithesh Kumar, Bryan Pardo. *VampNet: Music Generation via Masked Acoustic Token Modeling.* In Proceedings of the 24th International Society for Music Information Retrieval Conference. November 2023. [\[pdf\]](https://arxiv.org/pdf/2307.04686) [\[demo\]](https://huggingface.co/spaces/descript/vampnet) [\[code\]](https://github.com/hugofloresgarcia/vampnet) [\[examples\]](https://hugo-does-things.notion.site/VampNet-Music-Generation-via-Masked-Acoustic-Token-Modeling-e37aabd0d5f1493aa42c5711d0764b33)
 
-Liu, A., **Seetharaman, P.**, & Pardo, B. (2020). *Model Selection for Deep Audio Source Separation via Clustering Analysis.* Proceedings of DCASE 2020. **Best Student Paper.** [\[pdf\]](https://arxiv.org/pdf/1910.12626.pdf)
+Alisa Liu, **Prem Seetharaman**, Bryan Pardo. *Model Selection for Deep Audio Source Separation via Clustering Analysis.* Proceedings of DCASE 2020. **Best Student Paper.** [\[pdf\]](https://arxiv.org/pdf/1910.12626.pdf)
 
-Manilow, E., **Seetharaman, P.**, & Pardo, B. (2020). *Simultaneous Separation and Transcription of Mixtures with Multiple Polyphonic and Percussive Instruments.* ArXiv Preprint ArXiv:1910.12621. [\[pdf\]](https://arxiv.org/pdf/1910.12621.pdf)
+Ethan Manilow, **Prem Seetharaman**, Bryan Pardo. *Simultaneous Separation and Transcription of Mixtures with Multiple Polyphonic and Percussive Instruments.* ArXiv Preprint ArXiv:1910.12621. 2020. [\[pdf\]](https://arxiv.org/pdf/1910.12621.pdf)
 
-**Seetharaman, P.**, Wichern, G., Roux, J. L., & Pardo, B. (2020). *Bootstrapping Deep Music Separation from Primitive Auditory Grouping Principles.* ArXiv Preprint ArXiv:1910.11133. [\[pdf\]](https://arxiv.org/pdf/1910.11133.pdf)
+**Prem Seetharaman**, Gordon Wichern, Jonathan Le Roux, Bryan Pardo. *Bootstrapping Deep Music Separation from Primitive Auditory Grouping Principles.* ArXiv Preprint ArXiv:1910.11133. 2020. [\[pdf\]](https://arxiv.org/pdf/1910.11133.pdf)
 
-**Seetharaman, P.**, Mysore, G., Pardo, B., Smaragdis, P., & Gomes, C. (2019). *VoiceAssist: Guiding Users to High-Quality Voice Recordings.* In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_voiceassist_chi19.pdf)
+**Prem Seetharaman**, Gautham Mysore, Bryan Pardo, Paris Smaragdis, Celso Gomes. *VoiceAssist: Guiding Users to High-Quality Voice Recordings.* In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM. 2019. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_voiceassist_chi19.pdf)
 
-Manilow, E., Wichern, G., **Seetharaman, P.**, & Roux, J. L. (2019). *Cutting Music Source Separation Some Slakh: A Dataset to Study the Impact of Training Data Quality and Quantity.* In IEEE Workshop on Applications of Signal Processing to Audio and Acoustics. [\[pdf\]](https://pseeth.github.io/public/papers/manilow_wichern_seetharaman_le_roux_waspaa19.pdf) [\[data\]](https://www.slakh.com/)
+Ethan Manilow, Gordon Wichern, **Prem Seetharaman**, Jonathan Le Roux. *Cutting Music Source Separation Some Slakh: A Dataset to Study the Impact of Training Data Quality and Quantity.* In IEEE Workshop on Applications of Signal Processing to Audio and Acoustics. 2019. [\[pdf\]](https://pseeth.github.io/public/papers/manilow_wichern_seetharaman_le_roux_waspaa19.pdf) [\[data\]](https://www.slakh.com/)
 
-Pishdadian, F., Kim, B., **Seetharaman, P.**, & Pardo, B. (2019). *Classifying Non-Speech Vocals: Deep vs Signal Processing Representations.* Proceedings of DCASE 2019. [\[pdf\]](https://pseeth.github.io/public/papers/pishdadian_kim_seetharaman_pardo_dcase2019.pdf)
+Fatemeh Pishdadian, Bongjun Kim, **Prem Seetharaman**, Bryan Pardo. *Classifying Non-Speech Vocals: Deep vs Signal Processing Representations.* Proceedings of DCASE 2019. [\[pdf\]](https://pseeth.github.io/public/papers/pishdadian_kim_seetharaman_pardo_dcase2019.pdf)
 
-**Seetharaman, P.**, Wichern, G., Roux, J. L., & Pardo, B. (2019). *Bootstrapping Single-Channel Source Separation via Unsupervised Spatial Clustering on Stereo Mixtures.* In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_bootstrapping_icassp19.pdf)
+**Prem Seetharaman**, Gordon Wichern, Jonathan Le Roux, Bryan Pardo. *Bootstrapping Single-Channel Source Separation via Unsupervised Spatial Clustering on Stereo Mixtures.* In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2019. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_bootstrapping_icassp19.pdf)
 
-**Seetharaman, P.**, Wichern, G., Venkataramani, S., & Roux, J. L. (2019). *Class-Conditional Embeddings for Music Source Separation.* In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_class_icassp19.pdf)
+**Prem Seetharaman**, Gordon Wichern, Shrikant Venkataramani, Jonathan Le Roux. *Class-Conditional Embeddings for Music Source Separation.* In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2019. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_class_icassp19.pdf)
 
-Manilow, E., **Seetharaman, P.**, & Pardo, B. (2018). *The Northwestern University Source Separation Library.* In Proceedings of the 19th International Society for Music Information Retrieval Conference. [\[pdf\]](https://pseeth.github.io/public/papers/manilow_seetharaman_ismir18.pdf) [\[code\]](https://github.com/interactiveaudiolab/nussl)
+Ethan Manilow, **Prem Seetharaman**, Bryan Pardo. *The Northwestern University Source Separation Library.* In Proceedings of the 19th International Society for Music Information Retrieval Conference. 2018. [\[pdf\]](https://pseeth.github.io/public/papers/manilow_seetharaman_ismir18.pdf) [\[code\]](https://github.com/interactiveaudiolab/nussl)
 
-**Seetharaman, P.**, Mysore, G. J., Smaragdis, P., & Pardo, B. (2018). *Blind Estimation of the Speech Transmission Index for Speech Quality Prediction.* In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_mysore_icassp18.pdf)
+**Prem Seetharaman**, Gautham J Mysore, Paris Smaragdis, Bryan Pardo. *Blind Estimation of the Speech Transmission Index for Speech Quality Prediction.* In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2018. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_mysore_icassp18.pdf)
 
-Wilkins, J., **Seetharaman, P.**, Wahl, A., & Pardo, B. (2018). *VocalSet: A Singing Voice Dataset.* In Proceedings of the 19th International Society for Music Information Retrieval Conference. [\[pdf\]](https://pseeth.github.io/public/papers/wilkins_seetharaman_ismir18.pdf) [\[data\]](https://zenodo.org/record/1193957) [\[demo\]](https://interactiveaudiolab.github.io/demos/vocalset)
+Julia Wilkins, **Prem Seetharaman**, Alison Wahl, Bryan Pardo. *VocalSet: A Singing Voice Dataset.* In Proceedings of the 19th International Society for Music Information Retrieval Conference. 2018. [\[pdf\]](https://pseeth.github.io/public/papers/wilkins_seetharaman_ismir18.pdf) [\[data\]](https://zenodo.org/record/1193957) [\[demo\]](https://interactiveaudiolab.github.io/demos/vocalset)
 
-**Seetharaman, P.**, Pishdadian, F., & Pardo, B. (2017). *Music/Voice Separation Using the 2D Fourier Transform.* In IEEE Workshop on Applications of Signal Processing to Audio and Acoustics. [\[pdf\]](https://pseeth.github.io/publications/public/papers/seetharaman_2dft_waspaa2017.pdf) [\[demo\]](https://interactiveaudiolab.github.io/demos/2dft)
+**Prem Seetharaman**, Fatemeh Pishdadian, Bryan Pardo. *Music/Voice Separation Using the 2D Fourier Transform.* In IEEE Workshop on Applications of Signal Processing to Audio and Acoustics. 2017. [\[pdf\]](https://pseeth.github.io/publications/public/papers/seetharaman_2dft_waspaa2017.pdf) [\[demo\]](https://interactiveaudiolab.github.io/demos/2dft)
 
-Manilow, E., **Seetharaman, P.**, Pishdadian, F., & Pardo, B. (2017). *Predicting Algorithm Efficacy for Adaptive Multi-Cue Source Separation.* In IEEE Workshop on Applications of Signal Processing to Audio and Acoustics. [\[pdf\]](https://pseeth.github.io/public/papers/manilow_seetharaman_pishdadian_waspaa2017.pdf) [\[demo\]](https://interactiveaudiolab.github.io/demos/multicue)
+Ethan Manilow, **Prem Seetharaman**, Fatemeh Pishdadian, Bryan Pardo. *Predicting Algorithm Efficacy for Adaptive Multi-Cue Source Separation.* In IEEE Workshop on Applications of Signal Processing to Audio and Acoustics. 2017. [\[pdf\]](https://pseeth.github.io/public/papers/manilow_seetharaman_pishdadian_waspaa2017.pdf) [\[demo\]](https://interactiveaudiolab.github.io/demos/multicue)
 
-**Seetharaman, P.**, & Rafii, Z. (2017). *Cover Song Identification with 2D Fourier Transform Sequences.* In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_rafii_icassp17.pdf) [\[code\]](https://github.com/pseeth/coversong_identification)
+**Prem Seetharaman**, Zafar Rafii. *Cover Song Identification with 2D Fourier Transform Sequences.* In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2017. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_rafii_icassp17.pdf) [\[code\]](https://github.com/pseeth/coversong_identification)
 
-Zheng, T., **Seetharaman, P.**, & Pardo, B. (2016). *SocialFX: Studying a Crowdsourced Folksonomy of Audio Effects Terms.* In Proceedings of the 2016 ACM on Multimedia Conference (pp. 182–186). ACM. [\[pdf\]](https://pseeth.github.io/public/papers/zheng_seetharaman_pardo_acmmm.pdf) [\[data\]](http://music.eecs.northwestern.edu/data/socialfx/)
+Taylor Zheng, **Prem Seetharaman**, Bryan Pardo. *SocialFX: Studying a Crowdsourced Folksonomy of Audio Effects Terms.* In Proceedings of the 2016 ACM on Multimedia Conference (pp. 182–186). ACM. 2016. [\[pdf\]](https://pseeth.github.io/public/papers/zheng_seetharaman_pardo_acmmm.pdf) [\[data\]](http://music.eecs.northwestern.edu/data/socialfx/)
 
-**Seetharaman, P.**, & Pardo, B. (2016). *Simultaneous Separation and Segmentation in Layered Music.* In Proceedings of the 17th International Society for Music Information Retrieval Conference (pp. 495–502). [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_pardo_ismir16.pdf) [\[code\]](https://github.com/interactiveaudiolab/separation_segmentation_ismir)
+**Prem Seetharaman**, Bryan Pardo. *Simultaneous Separation and Segmentation in Layered Music.* In Proceedings of the 17th International Society for Music Information Retrieval Conference (pp. 495–502). 2016. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_pardo_ismir16.pdf) [\[code\]](https://github.com/interactiveaudiolab/separation_segmentation_ismir)
 
-**Seetharaman, P.**, & Pardo, B. (2014). *Crowdsourcing a Reverberation Descriptor Map.* In Proceedings of the 22nd ACM international conference on Multimedia (pp. 587–596). ACM. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_pardo_acmmm14.pdf)
+**Prem Seetharaman**, Bryan Pardo. *Crowdsourcing a Reverberation Descriptor Map.* In Proceedings of the 22nd ACM international conference on Multimedia (pp. 587–596). ACM. 2014. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_pardo_acmmm14.pdf)
 
-**Seetharaman, P.**, & Tarzia, S. P. (2012). *The Hand Clap as an Impulse Source for Measuring Room Acoustics.* In Audio Engineering Society Convention 132. Audio Engineering Society. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_tarzia_aes12.pdf)
+**Prem Seetharaman**, Stephen P Tarzia. *The Hand Clap as an Impulse Source for Measuring Room Acoustics.* In Audio Engineering Society Convention 132. Audio Engineering Society. 2012. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_tarzia_aes12.pdf)
 
 ##### Refereed Journal Articles
 
-Tang, V., **Seetharaman, P.**, Chao, K., Pardo, B., & van der Lee, S. (2020). *Automating the Detection of Dynamically Triggered Earthquakes via a Deep Metric Learning Algorithm.* Seismological Research Letters. [\[pdf\]](https://pseeth.github.io/public/papers/tang_seetharaman_srl2020.pdf) [\[code\]](https://github.com/interactiveaudiolab/earthquakes)
+Vivian Tang, **Prem Seetharaman**, Kevin Chao, Bryan A Pardo, Suzan Van Der Lee. *Automating the Detection of Dynamically Triggered Earthquakes via a Deep Metric Learning Algorithm.* Seismological Research Letters. 2020. [\[pdf\]](https://pseeth.github.io/public/papers/tang_seetharaman_srl2020.pdf) [\[code\]](https://github.com/interactiveaudiolab/earthquakes)
 
-Pardo, B., Cartwright, M., **Seetharaman, P.**, & Kim, B. (2019). *Learning to Build Natural Audio Production Interfaces.* In Arts (Vol. 8, p. 110). Multidisciplinary Digital Publishing Institute. [\[pdf\]](https://pseeth.github.io/public/papers/pardo_cartwright_seetharaman_kim_arts19.pdf)
+Bryan Pardo, Mark Cartwright, **Prem Seetharaman**, Bongjun Kim. *Learning to Build Natural Audio Production Interfaces.* In Arts (Vol. 8, p. 110). Multidisciplinary Digital Publishing Institute. 2019. [\[pdf\]](https://pseeth.github.io/public/papers/pardo_cartwright_seetharaman_kim_arts19.pdf)
 
-Humphrey, E. J., Reddy, S., **Seetharaman, P.**, Kumar, A., Bittner, R. M., Demetriou, A., … others. (2018). *An Introduction to Signal Processing for Singing-Voice Analysis: High Notes in the Effort to Automate the Understanding of Vocals in Music.* IEEE Signal Processing Magazine, 36(1), 82–94. [\[pdf\]](https://pseeth.github.io/public/papers/humphrey_spm19.pdf)
+Eric J Humphrey, Sravana Reddy, **Prem Seetharaman**, Aparna Kumar, Rachel M Bittner, Andrew Demetriou, Sankalp Gulati, Andreas Jansson, Tristan Jehan, Bernhard Lehner, et al. *An Introduction to Signal Processing for Singing-Voice Analysis: High Notes in the Effort to Automate the Understanding of Vocals in Music.* IEEE Signal Processing Magazine, 36(1), 82–94. 2018. [\[pdf\]](https://pseeth.github.io/public/papers/humphrey_spm19.pdf)
 
-**Seetharaman, P.**, & Pardo, B. (2016). *Audealize: Crowdsourced Audio Production Tools.* Journal of the Audio Engineering Society, 64(9), 683–695. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_pardo_audealize_jaes.pdf) [\[demo\]](https://audealize.appspot.com/)
+**Prem Seetharaman**, Bryan Pardo. *Audealize: Crowdsourced Audio Production Tools.* Journal of the Audio Engineering Society, 64(9), 683–695. 2016. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_pardo_audealize_jaes.pdf) [\[demo\]](https://audealize.appspot.com/)
 
 ##### Refereed Extended Abstracts
 
-Donovan, M., **Seetharaman, P.**, & Pardo, B. (2017). *A Web Audio Node for the Fast Creation of Natural Language Interfaces for Audio Production.* [\[pdf\]](https://pseeth.github.io/public/papers/donovan_seetharaman_web_audio.pdf) [\[code\]](https://interactiveaudiolab.github.io/audealize_api)
+Michael Donovan, **Prem Seetharaman**, Bryan Pardo. *A Web Audio Node for the Fast Creation of Natural Language Interfaces for Audio Production.* 2017. [\[pdf\]](https://pseeth.github.io/public/papers/donovan_seetharaman_web_audio.pdf) [\[code\]](https://interactiveaudiolab.github.io/audealize_api)
 
-**Seetharaman, P.**, & Pardo, B. (2014). *Reverbalize: A Crowdsourced Reverberation Controller.* In Proceedings of the 22nd ACM international conference on Multimedia (pp. 739–740). ACM. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_pardo_td_acmmm14.pdf)
+**Prem Seetharaman**, Bryan Pardo. *Reverbalize: A Crowdsourced Reverberation Controller.* In Proceedings of the 22nd ACM international conference on Multimedia (pp. 739–740). ACM. 2014. [\[pdf\]](https://pseeth.github.io/public/papers/seetharaman_pardo_td_acmmm14.pdf)
 
 ##### Non-refereed Abstracts
 
-Chao, K., **Seetharaman, P.**, Tang, V., Pardo, B. A., & Van der Lee, S. (2018). *Automatic classification of triggered tectonic tremor with deep learning.* In AGU Fall Meeting Abstracts.
+Kevin Chao, **Prem Seetharaman**, Vivian Tang, Bryan A Pardo, Suzan Van der Lee. *Automatic classification of triggered tectonic tremor with deep learning.* In AGU Fall Meeting Abstracts. 2018.
 
-Tang, V., **Seetharaman, P.**, Chao, K., Pardo, B. A., & van der Lee, S. (2018). *Siamese networks for triggered earthquakes detection.* In AGU Fall Meeting Abstracts.
+Vivian Tang, **Prem Seetharaman**, Kevin Chao, Bryan A Pardo, Suzan van der Lee. *Siamese networks for triggered earthquakes detection.* In AGU Fall Meeting Abstracts. 2018.
