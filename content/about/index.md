@@ -1,7 +1,7 @@
 
 ##### About
 
-I am a Senior Research Scientist at Adobe Research, working in the [Audio AI Lab](https://research.adobe.com/research/audio/). I received my PhD in 2019 at Northwestern University, advised by [Bryan Pardo](https://bryan-pardo.github.io/). Afterwards, I spent some time at [Descript](https://www.descript.com/) where I worked on audio [enhancement](https://www.descript.com/studio-sound) and [generation](https://www.descript.com/overdub "generation"). My recent work spans understanding and generating audio and video. I work at the intersection of computer audition, generative modeling, and interaction, with the goal of lowering the barrier to entry for content creation.
+I am a Senior Research Scientist at Adobe Research, working in the [Audio AI Lab](https://research.adobe.com/research/audio/). I received my PhD in 2019 at Northwestern University, advised by [Bryan Pardo](https://bryan-pardo.github.io/). Afterwards, I spent some time at [Descript](https://www.descript.com/) where I worked on audio [enhancement](https://www.descript.com/studio-sound) and [generation](https://www.descript.com/overdub "generation"). My recent work spans understanding and generating audio and video.
 
 ##### Contact & Internships
 
