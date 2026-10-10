@@ -2,6 +2,34 @@
 title: News
 ---
 
+**Oct 2026** [Smorph](https://smorphspace.github.io/), playable sound morphing with diffusion models, will appear at ISMIR 2026, with Annie Chu.
+
+**Oct 2026** Released [CrossEdit](https://wanchichen.github.io/crossedit/), which uses cross-modal training for rich audio-visual editing.
+
+**Sep 2026** [TAC](https://sonalkum.github.io/tacmodel/), our timestamped audio captioning model, was accepted to NeurIPS 2026!
+
+**Aug 2026** We launched [Generate Soundscape](https://community.adobe.com/announcements-732/now-in-beta-generate-soundscape-in-premiere-1639274) in Premiere (beta), which generates a picture-synced soundscape for your video as four editable stems, based on our [MultiFoley](https://ificl.github.io/MultiFoley/) research.
+
+**May 2026** Five papers at ICASSP 2026 in Barcelona: [Taming Audio VAEs via Target-KL Regularization](https://arxiv.org/abs/2605.17085), [Generative Audio Extension and Morphing](https://urinieto.github.io/genextend_html), [Mix2Morph](https://anniejchu.github.io/mix2morph), [AudioCards](https://arxiv.org/abs/2602.13835), and [PromptSep](https://yutongwen.github.io/PromptSep/).
+
+**Apr 2026** Two papers at CHI 2026: [MoSound](https://research.adobe.com/publication/mosound-an-interactive-tool-for-generative-sound-design-in-motion-graphics/) (**Best Paper Honorable Mention**) and [SoundStager](https://www.dgp.toronto.edu/~suhyeon423/publications/soundstager/).
+
+**Feb 2026** Released [AudioChat](https://wanchichen.github.io/audiochat/), a unified model for audio storytelling, editing, and understanding, and [TAC](https://sonalkum.github.io/tacmodel/), a timestamped audio captioning model.
+
+**Oct 2025** [Project Sound Stager](https://www.youtube.com/watch?v=QOz_CsQKcz8) was an Adobe MAX Sneak. It builds layered soundscapes for a video from its visuals, pacing, and mood, and lets you refine the mix by chatting with an AI sound designer.
+
+**Sep 2025** [The Rhythm In Anything](https://therhythminanything.github.io/) (audio-prompted drum generation) at ISMIR 2025, and [SILA](https://sonalkum.github.io/SILA/) at WASPAA 2025.
+
+**Jul 2025** Adobe launched [Generate Sound Effects](https://helpx.adobe.com/firefly/web/work-with-audio-and-video/work-with-audio/voice-to-sound-effects.html) in Firefly, which lets you make sound effects from a text prompt and your own voice, building on our [Sketch2Sound](https://hugofloresgarcia.art/sketch2sound/) research.
+
+**Jul 2025** [FLAM](https://flam-model.github.io/), frame-wise language-audio modeling, at ICML 2025.
+
+**Jun 2025** [MultiFoley](https://ificl.github.io/MultiFoley/), video-guided Foley sound generation with multimodal controls, at CVPR 2025.
+
+**Apr 2025** [Sketch2Sound](https://hugofloresgarcia.art/sketch2sound/) (with [Hugo](https://hugofloresgarcia.github.io/)) and [Code Drift](https://oreillyp.github.io/codedrift/) at ICASSP 2025.
+
+**Oct 2024** [Project Super Sonic](https://www.youtube.com/watch?v=RddSWodgX5w) was an Adobe MAX Sneak. It generates sound effects for video from text, clicks on objects, and vocal imitations.
+
 **Dec 2023** I joined Adobe Research as a Senior Research Scientist, working in the Audio AI Lab.
 
 **Jul 2023** Descript launches [Regenerate](https://www.descript.com/regenerate) (led by [Rithesh Kumar](https://ritheshkumar.com/)), powered by the Descript Audio Codec!

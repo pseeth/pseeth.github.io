@@ -1,0 +1,7 @@
+{{- /* Links written as [\[pdf\]](...) render as small tags; all other links render as usual. */ -}}
+{{- $text := .Text | string -}}
+{{- if and (hasPrefix $text "[") (hasSuffix $text "]") -}}
+<a class="pub-link" href="{{ .Destination | safeURL }}">{{ strings.TrimSuffix "]" (strings.TrimPrefix "[" $text) | safeHTML }}</a>
+{{- else -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ $text | safeHTML }}</a>
+{{- end -}}
